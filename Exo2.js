@@ -35,9 +35,11 @@ console.log(monVa);
 console.log(Math.floor(Math.random() * 256));
 
 //------------------challenge 10
-
-let maChaine = "JavaScript"
-console.log(maChaine.split(''));
+let maChaine = "javaScript"
+   let getArray = maChaine.split('');
+let index = Math.floor(Math.random() * getArray.length)
+console.log(index);
+console.log(getArray[index]);
 
 //-----------------challenge 11
 console.log(`
